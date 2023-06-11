@@ -1,0 +1,47 @@
+body{
+   background-color:hsl(212, 45%, 89%) ;  
+   /* display: flex;
+   justify-content: center; */
+   /* position: relative;
+   top: 50%; */
+}
+.center{
+    background-color:hsl(0, 0%, 100%) ;
+    width: 250px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    
+}
+img{
+    height: 50vh;
+    border-radius: 10px;
+    margin-top: 10px;
+  
+   
+}
+h3{
+    color:hsl(218, 44%, 22%);
+    text-align: center;
+    line-height: 20px;
+}
+p{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    line-height: 20px;
+    margin-top: 0%;
+}
+@media (max-width: 375px) {
+   .center{
+    height: 40vh;
+    margin-top: 200px;
+   }
+   img{
+    height: 170px;
+   }
+}
